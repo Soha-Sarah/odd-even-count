@@ -1,0 +1,35 @@
+
+def evenodd():
+    even = 0
+    odd = 0
+    print("Please input 5 numbers")
+    for count in range(0, 5):
+        num = int(input("enter number: "))
+        if num % 2 == 0:
+            even = even + 1
+        else:
+            odd = odd + 1
+    return even, odd
+
+
+a, b = evenodd()
+print("number of even values: ", a)
+print("number of odd values: ", b)
+
+'''
+def evenodd():
+    even = 0
+    odd = 0
+    count = 0
+    while count <= 5:
+        num = int(input("enter number: "))
+        if num % 2 == 0:
+            even = even + 1
+        else:
+            odd = odd + 1
+    return even, odd
+
+
+a, b = evenodd()
+print("even: ", a, "odd", b)
+'''
