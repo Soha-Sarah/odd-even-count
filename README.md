@@ -4,7 +4,7 @@
 # How To Use  
  There are two codes which works same  
  The first code is done by using for loop and the second code is with while loop  
- First copy and pate the code you want in an IDE which supports Python  
+ First copy and paste the code you want in an IDE which supports Python (remove the single triple quotes if you choose the while loop  
 
 # Output  
  You will be asked to input 5 numbers individually  
